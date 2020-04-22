@@ -10,6 +10,6 @@ jobs:
     - name: install cpm and multiple modules
       uses: perl-actions/install-with-cpm@v1.3
       with:
-        cpanfile: 'your-cpanfile'
+        cpanfile: 'cpanfile'
     - name: Run Tests
       run: prove -l t

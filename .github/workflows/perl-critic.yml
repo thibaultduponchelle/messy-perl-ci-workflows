@@ -1,0 +1,15 @@
+name: perl-critic
+on: push
+jobs:
+  perl:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: perl -V
+      run: perl -V
+    - name: Perl Critic
+      uses: Difegue/action-perlcritic@master
+      with:
+        args: ./lib/* ./scripts/*
+
+

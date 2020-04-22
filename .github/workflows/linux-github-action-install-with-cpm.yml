@@ -1,0 +1,15 @@
+name: linux-github-action-install-with-cpm
+on: push
+jobs:
+  perl:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: perl -V
+      run: perl -V
+    - name: install cpm and multiple modules
+      uses: perl-actions/install-with-cpm@v1.3
+      with:
+        cpanfile: 'your-cpanfile'
+    - name: Run Tests
+      run: prove -l t

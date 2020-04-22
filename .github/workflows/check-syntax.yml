@@ -1,0 +1,13 @@
+name: linux-check-syntax
+on: push
+jobs:
+  perl:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: perl -V
+      run: perl -V
+    - name: Check syntax 
+      run: for f in `find . -name "*.pm" -o -name "*.pl"`; do perl -c $f; done
+
+

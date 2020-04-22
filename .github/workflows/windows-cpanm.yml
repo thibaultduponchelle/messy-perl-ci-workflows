@@ -1,4 +1,4 @@
-name: macos
+name: windows
 
 on:
   push:
@@ -13,15 +13,19 @@ on:
 jobs:
   perl:
 
-    runs-on: macOS-latest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v2
       - name: Set up Perl
-        run: brew install perl
+        run: |
+          choco install strawberryperl
+          curl https://cpanmin.us | perl - App::cpanminus -n
+          echo "##[add-path]C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin"
       - name: perl -V
         run: perl -V
       - name: Install Dependencies
-        run: curl -sL https://git.io/cpm | perl - install -g --show-build-log-on-failure
+        run: cpanm --cpanfile=cpanfile --installdeps . --verbose
       - name: Run Tests
         run: prove -l t
+

@@ -1,5 +1,11 @@
 name: perl-critic
-on: push
+on: 
+  push:
+    branches:
+      - '*'
+  schedule:
+    cron: 0 0 * * *
+
 jobs:
   perl:
     runs-on: ubuntu-latest

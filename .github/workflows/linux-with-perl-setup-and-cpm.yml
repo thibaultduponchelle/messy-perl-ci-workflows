@@ -1,5 +1,12 @@
 name: linux-with-perl-setup-and-cpm
-on: push
+
+on: 
+  push:
+    branches:
+      - '*'
+  schedule:
+    - cron: 0 0 * * *
+
 jobs:
   perl:
     runs-on: ubuntu-latest

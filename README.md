@@ -27,11 +27,23 @@ It can be also for some testing.
 
 ## Travis
 
-You can find here the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl).
+
+### Mandatory kit 
 
 Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
 
+You can find here the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl).
+
+### Activation
+
 You also need to activate `Travis CI` for your repository (connect to travis website with github credentials).
+
+### Extra bits
+
+If your Perl version gets removed suddenly, it's probably because you are attached to a *floating* platform and the *latest* changed from one Ubuntu LTS to another Ubuntu LTS (for instance).
+
+You can fix it by forcing the platform.
+
 
 ## Github actions workflows
 

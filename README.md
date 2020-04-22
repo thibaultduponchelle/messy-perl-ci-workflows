@@ -22,27 +22,30 @@ It's a matter of storage and run duration. The duration depends the platform (li
 
 ![ghactionslimits](ghactionslimits.png)
 
-### containers limitation
+### Containers limitation
 
 You can only launch containers from a GNU/Linux host.
 For instance, if you specify `run-on: macOS-latest`, you won't be able to use `container:` :
 
+
 ```
+    # THIS CODE DOES NOT WORK
+
     runs-on: macOS-latest
 
-    #strategy:
-    #  matrix:
-    #    perl-version:
-    #      - 'latest'
+    strategy:
+      matrix:
+        perl-version:
+          - 'latest'
 
-    #container:
-    #  image: perl:${{ matrix.perl-version }}
+    container:
+      image: perl:${{ matrix.perl-version }}
 ```
 
 Will produce :
 
 ```
-    # ##[error]Container operations are only supported on Linux runners`
+    ##[error]Container operations are only supported on Linux runners`
 ``` 
 
 See for instance this [failed run](https://github.com/thibaultduponchelle/messy-perl-github-actions/runs/608005097?check_suite_focus=true)

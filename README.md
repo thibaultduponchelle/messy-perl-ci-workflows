@@ -10,7 +10,7 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/macos-share-cpm/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/macos-system-cpanminus/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/macos-system-cpm/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
-[![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/nightly/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/nightly-build/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/perl-critic/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/plack/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/windows-cpanminus/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 

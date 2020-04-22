@@ -1,4 +1,4 @@
-name: macos-share-cpm
+name: macos-system-cpm
 
 on:
   push:

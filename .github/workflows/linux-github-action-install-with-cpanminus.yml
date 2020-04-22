@@ -1,4 +1,4 @@
-name: linux-github-action-install-with-cpm
+name: linux-github-action-install-with-cpanminus
 on: 
   push:
     branches:

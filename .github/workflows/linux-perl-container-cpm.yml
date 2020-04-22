@@ -1,4 +1,4 @@
-name: linux
+name: linux-perl-container-cpm
 
 on:
   push:

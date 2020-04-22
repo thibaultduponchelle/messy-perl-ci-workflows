@@ -32,7 +32,7 @@ It can be also for some testing.
 
 Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
 
-You can find here the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl).
+Check the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl)
 
 ### Activation
 

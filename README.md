@@ -6,20 +6,21 @@ This is a repository to give some inspiration to my Perl fellow developers.
 
 It can be also for some testing.
 
-## See also
+## Github actions workflows
 
-### Github actions
+### Ready to use github actions
 
 - [Install with cpm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpm))
 - [Install with cpanm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpanm))
 - [Setup Perl Environment](https://github.com/marketplace/actions/setup-perl-environment) ([github repo](https://github.com/shogo82148/actions-setup-perl))
 - [Perl Critic](https://github.com/marketplace/actions/github-action-for-perl-critic) ([github repo](https://github.com/Difegue/action-perlcritic))
 
-## Notes 
+### Limits 
 
-### Check syntax
+There is a limit in how much github actions you can run on private repositories.
+It's a matter of storage and run duration. The duration depends the platform (linux is cheap, windows is less, and macos is very expensive).
 
-Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...).
+![ghactionslimits](ghactionslimits.png)
 
 ### containers limitation
 
@@ -45,3 +46,10 @@ Will produce :
 ``` 
 
 See for instance this [failed run](https://github.com/thibaultduponchelle/messy-perl-github-actions/runs/608005097?check_suite_focus=true)
+
+## Notes 
+
+### Check syntax
+
+Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...).
+

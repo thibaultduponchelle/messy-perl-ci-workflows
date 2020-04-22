@@ -25,6 +25,14 @@ This is a repository to give some inspiration to my Perl fellow developers.
 
 It can be also for some testing.
 
+## Travis
+
+You can find here the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl).
+
+Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
+
+You also need to activate `Travis CI` for your repository (connect to travis website with github credentials).
+
 ## Github actions workflows
 
 ### Ready to use github actions

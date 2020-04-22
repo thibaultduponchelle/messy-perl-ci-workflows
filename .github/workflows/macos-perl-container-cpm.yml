@@ -1,0 +1,41 @@
+name: macos-perl-container-cpm
+
+on:
+  push:
+    branches:
+      - '*'
+    tags-ignore:
+      - '*'
+  pull_request:
+
+env:
+  PERL5LIB: /Users/runner/perl5/lib/perl5
+  PERL_LOCAL_LIB_ROOT: /Users/runner/perl5
+  PERL_MB_OPT: --install_base /Users/runner/perl5
+  PERL_MM_OPT: INSTALL_BASE=/Users/runner/perl5
+  ALIEN_INSTALL_TYPE: system
+
+jobs:
+  perl:
+
+    runs-on: macOS-latest
+
+    strategy:
+      matrix:
+        perl-version:
+          - 'latest'
+
+    container:
+      image: perl:${{ matrix.perl-version }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Perl
+        run: |
+          brew install perl
+          brew install libxml2
+          echo "##[add-path]/Users/runner/perl5/bin"
+      - name: perl -V
+        run: perl -V
+      - name: Install Dynamic Dependencies
+        run: curl -sL https://git.io/cpm | perl - install -g --show-build-log-on-failure --cpanfile=cpanfile-alien-libxml2

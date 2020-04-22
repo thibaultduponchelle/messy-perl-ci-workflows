@@ -33,4 +33,4 @@ jobs:
         run: perl -V
         
       - name: Install Dynamic Dependencies
-        run: cpanm --cpanfile=cpanfile-alien-libxml2 --installdeps .
+        run: cpanm --cpanfile=cpanfile-alien-libxml2 --installdeps . --verbose

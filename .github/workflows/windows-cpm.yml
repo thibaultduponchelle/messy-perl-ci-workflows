@@ -1,4 +1,4 @@
-name: windows
+name: windows-cpm
 
 on:
   push:

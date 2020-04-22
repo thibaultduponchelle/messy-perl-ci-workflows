@@ -1,6 +1,9 @@
 name: nightly-build
 
 on: 
+  push:
+    branches:
+      - '*'
   schedule:
     - cron: 0 0 * * *
 

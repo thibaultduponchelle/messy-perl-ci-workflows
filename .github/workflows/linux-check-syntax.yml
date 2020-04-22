@@ -14,6 +14,6 @@ jobs:
     - name: perl -V
       run: perl -V
     - name: Check syntax 
-      run: for f in `find . -name "*.pm" -o -name "*.pl"`; do perl -c $f; done
+      run: for f in `find . -name "*.pm" -o -name "*.pl" -o -name "*.t"`; do perl -c $f; done
 
 

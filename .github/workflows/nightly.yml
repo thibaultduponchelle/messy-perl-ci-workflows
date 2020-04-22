@@ -1,0 +1,11 @@
+name: Nightly build
+on: 
+  schedule:
+    - cron: 0 0 * * *
+jobs:
+  hello:
+    name: Say-Hello
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello
+      run: echo "Hello Midnight"

@@ -1,0 +1,13 @@
+requires 'Log::Log4perl';
+requires 'Email::Simple';
+requires 'Test::Slow';
+requires 'Acme::LSD';
+requires 'Devel::MAT';
+requires 'Perl::Critic';
+requires 'Code::TidyAll';
+requires 'Data::Printer';
+requires 'CHI';
+requires 'CHI';
+# etc...
+# etc...
+# etc...

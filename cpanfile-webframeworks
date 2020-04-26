@@ -8,7 +8,6 @@ requires 'Kossy';
 requires 'Squatting';
 requires 'Tatsumaki';
 requires 'Raisin';
-requires 'Angelos';
 requires 'Web::Simple';
 requires 'Ark';
 requires 'WebNano';
@@ -24,3 +23,4 @@ requires 'Kelp';
 # Noe
 # Marquee
 # Piggly
+# Angelos

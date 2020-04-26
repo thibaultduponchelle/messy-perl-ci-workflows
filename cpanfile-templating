@@ -1,0 +1,6 @@
+requires 'Mason';
+requires 'Embperl';
+requires 'Template::Toolkit';
+requires 'DTL::Fast';
+requires 'Template::Mustache';
+requires 'Template::Flute';

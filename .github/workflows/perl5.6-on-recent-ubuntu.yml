@@ -28,3 +28,5 @@ jobs:
           ./Configure -des -Dprefix=/opt/perl5.6 -Aldflags='-lm'
           make 
           sudo make install
+      - name: perl -V
+        run: /opt/perl5.6/bin/perl -V

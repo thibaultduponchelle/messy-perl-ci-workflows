@@ -8,16 +8,19 @@ requires 'Kossy';
 requires 'Squatting';
 requires 'Tatsumaki';
 requires 'Raisin';
-requires 'Maypole';
 requires 'Angelos';
 requires 'Web::Simple';
 requires 'Ark';
-requires 'Shenker';
-requires 'Noe';
-requires 'Kamui';
 requires 'WebNano';
 requires 'RapidApp';
 requires 'Kelp';
-requires 'Marquee';
-requires 'Piggly';
 
+# Broken :
+# requires 'Maypole';
+
+# Not on CPAN :
+# Kamui
+# Shenker
+# Noe
+# Marquee
+# Piggly

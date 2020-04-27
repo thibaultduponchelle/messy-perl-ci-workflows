@@ -1,0 +1,25 @@
+name: multiple-runs-of-cpm-global
+
+on:
+  push:
+    branches:
+      - '*'
+    tags-ignore:
+      - '*'
+  pull_request:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install Plack
+        run: curl -sL https://git.io/cpm | perl - install --global --show-build-log-on-failure --cpanfile=cpanfile-plack
+      - name: Insall XML::LibXML
+        run: curl -sL https://git.io/cpm | perl - install --global --show-build-log-on-failure --cpanfile=cpanfile-xml-libxml

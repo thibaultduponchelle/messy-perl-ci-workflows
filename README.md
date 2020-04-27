@@ -30,6 +30,8 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/alien-river-only-1/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/alien-river-only-2/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/alien-river-only-3/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/multiple-runs-of-cpm/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/multiple-runs-of-cpm-global/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 
 
 # Messy Perl github ci workflows

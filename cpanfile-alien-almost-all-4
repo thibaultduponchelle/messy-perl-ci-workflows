@@ -13,7 +13,7 @@ requires 'Alien::LibGumbo';
 requires 'Alien::LibreSSL';
 requires 'Alien::Lightbox';
 requires 'Alien::OpenJPEG';
-requires 'Alien::Protobuf';
+requires 'Alien::ProtoBuf';
 requires 'Alien::SamTools';
 requires 'Alien::Selenium';
 #requires 'Alien::UDUNITS2'; # Moved

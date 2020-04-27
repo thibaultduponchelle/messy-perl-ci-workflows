@@ -1,17 +1,18 @@
 # 1
 requires 'Alien::CImg';
-requires 'Alien::GEOS'; # Moved
+requires 'Alien::GEOS'; 
 requires 'Alien::GSL';
 requires 'Alien::Hush';
 requires 'Alien::IUP';
-requires 'Alien::Lua'; # Moved
+requires 'Alien::Lua'; 
 requires 'Alien::NSS';
 requires 'Alien::ROOT';
-requires 'Alien::SDL'; # Moved
+requires 'Alien::SDL'; 
 requires 'Alien::SDL2';
-requires 'Alien::SFML'; # Moved
-requires 'Alien::WFDB'; # Moved
-requires 'Alien::qd'; # Moved
+requires 'Alien::SFML'; 
+requires 'Alien::WFDB'; 
+requires 'Alien::qd'; 
+requires 'Alien::TACO'; 
 
 # 2
 requires 'Alien::LibJIT';
@@ -28,6 +29,7 @@ requires 'Alien::KentSrc';
 requires 'Alien::LibUSBx';
 requires 'Alien::LuaJIT';
 requires 'Alien::MUSCLE';
+requires 'Alien::RRDtool';
 requires 'Alien::QtSmoke';
 requires 'Alien::SmokeQt'; # vs Alien::QtSmoke ?
 requires 'Alien::Sodium';

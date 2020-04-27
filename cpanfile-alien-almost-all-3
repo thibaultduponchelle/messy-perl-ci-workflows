@@ -25,7 +25,7 @@ requires 'Alien::Libxml2'; # vs Alien::LibXML ?
 requires 'Alien::OpenSSL';
 requires 'Alien::Poppler';
 #requires 'Alien::QtSmoke'; # Moved
-requires 'Alien::RRDtool';
+#requires 'Alien::RRDtool'; # Moved
 #requires 'Alien::SmokeQt'; # vs Alien::QtSmoke ? Moved
 requires 'Alien::Texinfo';
 requires 'Alien::TinyCCx';

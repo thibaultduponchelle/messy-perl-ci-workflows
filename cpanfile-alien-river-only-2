@@ -9,7 +9,7 @@ requires 'Alien::MuPDF';
 requires 'Alien::PCRE2';
 requires 'Alien::Proj4';
 requires 'Alien::Saxon';
-requires 'Alien::TALib';
+#requires 'Alien::TALib';
 requires 'Alien::Tidyp';
 requires 'Alien::bison';
 requires 'Alien::gmake';

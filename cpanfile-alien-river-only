@@ -31,7 +31,7 @@ requires 'Alien::Proj4';
 requires 'Alien::Saxon';
 requires 'Alien::TALib';
 requires 'Alien::Tidyp';
-requires 'Alien::bison'`;
+requires 'Alien::bison';
 requires 'Alien::gmake';
 requires 'Alien::libuv';
 requires 'Alien::patch';

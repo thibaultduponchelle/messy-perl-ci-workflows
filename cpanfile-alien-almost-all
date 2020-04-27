@@ -60,7 +60,7 @@ requires 'Alien::TALib';
 requires 'Alien::Tidyp';
 requires 'Alien::UnRTF';
 requires 'Alien::Zcash';
-requires 'Alien::bison'`;
+requires 'Alien::bison';
 requires 'Alien::cmark';
 requires 'Alien::gmake';
 requires 'Alien::gperf';

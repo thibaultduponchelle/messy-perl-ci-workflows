@@ -1,0 +1,15 @@
+requires 'Alien::LibANN';
+requires 'Alien::mpg123';
+requires 'Alien::raylib';
+requires 'Alien::Gnuplot';
+requires 'Alien::RRDtool';
+requires 'Alien::Libevent';
+requires 'Alien::sispmctl';
+requires 'Alien::FontForge';
+requires 'Alien::FreeImage';
+requires 'Alien::OpenVcdiff';
+requires 'Alien::spatialite';
+requires 'Alien::AntTweakBar';
+requires 'Alien::DDC::Concordance';
+requires 'Alien::Gimp';
+requires 'Alien::HDF4';

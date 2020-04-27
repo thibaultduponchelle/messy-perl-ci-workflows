@@ -1,0 +1,35 @@
+#requires 'Alien::FreeImage';
+requires 'Alien::GvaScript';
+requires 'Alien::Leptonica';
+requires 'Alien::Prototype';
+requires 'Alien::SLOCCount';
+requires 'Alien::SwaggerUI';
+requires 'Alien::TidyHTML5';
+requires 'Alien::wxWidgets';
+requires 'Alien::Libarchive';
+requires 'Alien::Librdkafka';
+#requires 'Alien::OpenVcdiff';
+requires 'Alien::SeleniumRC';
+#requires 'Alien::spatialite';
+#requires 'Alien::AntTweakBar';
+requires 'Alien::UnicornEngine';
+requires 'Alien::scriptaculous';
+# Alien::BatToExeConverter bad namespace ?
+requires 'Alien::geos::af';
+requires 'Alien::Build::MB';
+requires 'Test::Alien::CPP'; 
+requires 'Alien::GPG::Error'; # vs Alien::Libgpg_error ?
+requires 'Alien::ZMQ::latest';
+requires 'Alien::Google::GRPC';
+requires 'Alien::Web::ExtJS::V3';
+requires 'Acme::Alien::DontPanic';
+requires 'Alien::Web::HalBrowser';
+requires 'Acme::Alien::DontPanic2';
+#requires 'Alien::DDC::Concordance';
+requires 'Alien::VideoLAN::LibVLC';
+requires 'Alien::Base::ModuleBuild';
+requires 'Dist::Zilla::Plugin::Alien';
+requires 'Alien::DBD::SQLite::BundledExtensions';
+#requires 'Alien::Gimp';
+#requires 'Alien::HDF4';
+requires 'AI::PredictionClient::Alien::TensorFlowServingProtos';

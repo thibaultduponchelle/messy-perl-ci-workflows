@@ -1,0 +1,65 @@
+# 1
+requires 'Alien::CImg';
+requires 'Alien::GEOS'; # Moved
+requires 'Alien::GSL';
+requires 'Alien::Hush';
+requires 'Alien::IUP';
+requires 'Alien::Lua'; # Moved
+requires 'Alien::NSS';
+requires 'Alien::ROOT';
+requires 'Alien::SDL'; # Moved
+requires 'Alien::SDL2';
+requires 'Alien::SFML'; # Moved
+requires 'Alien::WFDB'; # Moved
+requires 'Alien::qd'; # Moved
+
+# 2
+requires 'Alien::LibJIT';
+requires 'Alien::HIDAPI';
+requires 'Alien::LibANN';
+requires 'Alien::TALib';
+requires 'Alien::LibUSB';
+requires 'Alien::MeCab'; 
+
+# 3
+requires 'Alien::Gearman';
+requires 'Alien::Gnuplot'; 
+requires 'Alien::KentSrc';
+requires 'Alien::LibUSBx';
+requires 'Alien::LuaJIT';
+requires 'Alien::MUSCLE';
+requires 'Alien::QtSmoke';
+requires 'Alien::SmokeQt'; # vs Alien::QtSmoke ?
+requires 'Alien::Sodium';
+requires 'Alien::ffmpeg';
+requires 'Alien::gettext';
+requires 'Alien::gputils';
+requires 'Alien::mpg123';
+requires 'Alien::raylib';
+
+# 4
+requires 'Alien::Editline';
+requires 'Alien::FontForge';
+requires 'Alien::FreeImage';
+requires 'Alien::LibBigWig';
+requires 'Alien::LibMagic';
+requires 'Alien::Libevent';
+requires 'Alien::Libgcrypt';
+requires 'Alien::UDUNITS2';
+requires 'Alien::sispmctl';
+
+# 5
+requires 'Alien::AntTweakBar';
+requires 'Alien::DDC::Concordance';
+requires 'Alien::Gimp';
+requires 'Alien::HDF4';
+requires 'Alien::Libgpg_error';
+requires 'Alien::OpenVcdiff';
+requires 'Alien::SNMP::MAXTC';
+requires 'Alien::XInputSimulator';
+requires 'Alien::libsndfile';
+requires 'Alien::libtermkey';
+requires 'Alien::libtickit';
+requires 'Alien::pdf2htmlEX';
+requires 'Alien::spatialite';
+

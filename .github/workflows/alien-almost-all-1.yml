@@ -1,4 +1,4 @@
-name: alien-river-only
+name: alien-almost-all-1
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install Dependencies
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --cpanfile=cpanfile-alien-river-only
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --cpanfile=cpanfile-alien-almost-all-1

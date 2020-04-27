@@ -5,7 +5,7 @@ requires 'Alien::Prototype';
 requires 'Alien::SLOCCount';
 requires 'Alien::SwaggerUI';
 requires 'Alien::TidyHTML5';
-requires 'Alien::wxWidgets';
+#requires 'Alien::wxWidgets';
 requires 'Alien::Libarchive';
 requires 'Alien::Librdkafka';
 #requires 'Alien::OpenVcdiff';

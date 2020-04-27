@@ -13,3 +13,5 @@ requires 'Alien::AntTweakBar';
 requires 'Alien::DDC::Concordance';
 requires 'Alien::Gimp';
 requires 'Alien::HDF4';
+requires 'Alien::wxWidgets';
+requires 'Alien::ProtoBuf';

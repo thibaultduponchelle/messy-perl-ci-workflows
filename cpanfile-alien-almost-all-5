@@ -1,7 +1,7 @@
 requires 'Alien::TidyHTML5';
 #requires 'Alien::libtickit'; # Moved
 #requires 'Alien::unibilium'; # Moved
-requires 'Alien::wxWidgets';
+#requires 'Alien::wxWidgets';
 requires 'Alien::Libarchive';
 requires 'Alien::Libasyncns';
 requires 'Alien::Librdkafka';

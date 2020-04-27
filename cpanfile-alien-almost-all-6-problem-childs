@@ -49,10 +49,12 @@ requires 'Alien::Libevent';
 requires 'Alien::Libgcrypt';
 requires 'Alien::UDUNITS2';
 requires 'Alien::sispmctl';
+requires 'Alien::ProtoBuf';
 
 # 5
 requires 'Alien::AntTweakBar';
 requires 'Alien::DDC::Concordance';
+requires 'Alien::wxWidgets';
 requires 'Alien::Gimp';
 requires 'Alien::HDF4';
 requires 'Alien::Libgpg_error';

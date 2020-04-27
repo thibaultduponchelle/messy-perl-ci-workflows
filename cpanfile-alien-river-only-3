@@ -27,7 +27,7 @@ requires 'Alien::Hunspell';
 requires 'Alien::LibGumbo';
 #requires 'Alien::Libevent';
 requires 'Alien::OpenJPEG';
-requires 'Alien::ProtoBuf';
+#requires 'Alien::ProtoBuf';
 requires 'Alien::Unicruft';
 requires 'Alien::autoconf';
 requires 'Alien::automake';

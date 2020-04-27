@@ -1,4 +1,4 @@
-name: perl 5.6.2 on recent Ubuntu
+name: perl-5.8.9-on-recent-ubuntu
 
 on:
   push:
@@ -18,15 +18,15 @@ jobs:
     steps:
       - name: Install cpanm with vendor Perl
         run: curl -L http://cpanmin.us | perl - --sudo App::cpanminus
-      - name: Build Perl 5.6.2
+      - name: Build Perl 5.8.9
         run: | 
-          wget https://www.cpan.org/src/5.0/perl-5.6.2.tar.gz
-          tar xvzf perl-5.6.2.tar.gz
+          wget https://www.cpan.org/src/5.0/perl-5.8.9.tar.gz
+          tar xvzf perl-5.8.9.tar.gz
           sudo cpanm Devel::PatchPerl
-          patchperl perl-5.6.2
-          cd perl-5.6.2
-          ./Configure -des -Dprefix=/opt/perl5.6 -Aldflags='-lm'
+          patchperl perl-5.8.9
+          cd perl-5.8.9
+          ./Configure -des -Dprefix=/opt/perl5.8.9 -Aldflags='-lm'
           make 
           sudo make install
       - name: perl -V
-        run: /opt/perl5.6/bin/perl -V
+        run: /opt/perl5.8.9/bin/perl -V

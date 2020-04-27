@@ -19,7 +19,9 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/webframeworks/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/templating/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/mess/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
-[![perl 5.6.2 on recent Ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/perl%205.6.2%20on%20recent%20Ubuntu/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![perl-5.6.2-on-recent-ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/perl-5.6.2-on-recent-ubuntu/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![perl-5.8.9-on-recent-ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/perl-5.8.9-on-recent-ubuntu/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![perl-5.10.1-on-recent-ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/perl-5.10.1-on-recent-ubuntu/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 
 
 # Messy Perl github ci workflows

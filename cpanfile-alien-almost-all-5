@@ -1,48 +1,48 @@
 requires 'Alien::TidyHTML5';
-requires 'Alien::libtickit';
-requires 'Alien::unibilium';
-requires 'Alien::WxWidgets';
+#requires 'Alien::libtickit'; # Moved
+#requires 'Alien::unibilium'; # Moved
+requires 'Alien::wxWidgets';
 requires 'Alien::Libarchive';
 requires 'Alien::Libasyncns';
 requires 'Alien::Librdkafka';
-requires 'Alien::OpenVcdiff';
+#requires 'Alien::OpenVcdiff'; # Moved
 requires 'Alien::SeleniumRC';
 requires 'Alien::libdeflate';
-requires 'Alien::libsndfile';
-requires 'Alien::libtermkey';
-requires 'Alien::pdf2htmlEX';
-requires 'Alien::spatialite';
-requires 'Alien::AntTweakBar';
+#requires 'Alien::libsndfile'; # Moved
+#requires 'Alien::libtermkey'; # Moved
+#requires 'Alien::pdf2htmlEX'; # Moved
+#requires 'Alien::spatialite'; # Moved
+#requires 'Alien::AntTweakBar'; # Moved
 requires 'Alien::ImageMagick';
 requires 'Alien::chromaprint';
-requires 'Alien::Libgpg_error';
-requires 'Alien::Libcmark_gfm';
+#requires 'Alien::Libgpg_error'; # Moved
+requires 'Alien::libcmark_gfm';
 requires 'Alien::LibCIAORegion';
 requires 'Alien::UnicornEngine';
 requires 'Alien::scriptaculous';
-requires 'Alien::XInputSimulator';
+#requires 'Alien::XInputSimulator'; # Moved
 # Alien::BatToExeConverter bad namespace ?
 requires 'Alien::geos::af';
 requires 'Alien::Build::MB';
 requires 'Test::Alien::CPP'; 
 requires 'Alien::GPG::Error'; # vs Alien::Libgpg_error ?
-requires 'Alien::SNMP::MAXTC';
+#requires 'Alien::SNMP::MAXTC'; # Moved
 requires 'Alien::ZMQ::latest';
 requires 'Alien::Google::GRPC';
 requires 'Alien::Plotly::Orca';
 requires 'Alien::zlib::Static';
 requires 'Alien::Web::ExtJS::V3';
-requires 'Alien::Alien::DontPanic';
+requires 'Acme::Alien::DontPanic';
 requires 'Alien::Debian::Apt::PM';
 requires 'Alien::OpenSSL::Static';
 requires 'Alien::Web::HalBrowser';
-requires 'Alien::Alien::DontPanic2';
-requires 'Alien::DDC::Concordance';
+requires 'Acme::Alien::DontPanic2';
+#requires 'Alien::DDC::Concordance'; # Moved
 requires 'Alien::VideoLAN::LibVLC';
 requires 'Alien::Base::ModuleBuild';
 requires 'Alien::Prototype::Carousel';
 requires 'Dist::Zilla::Plugin::Alien';
 requires 'Alien::DBD::SQLite::BundledExtensions';
-requires 'Alien::Gimp';
-requires 'Alien::HDF4';
+#requires 'Alien::Gimp'; # Moved
+#requires 'Alien::HDF4'; # Moved
 requires 'AI::PredictionClient::Alien::TensorFlowServingProtos';

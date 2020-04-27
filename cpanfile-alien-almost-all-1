@@ -1,40 +1,40 @@
 requires 'Alien::V8';
 requires 'Alien::Z3';
 requires 'Alien::m4';
-requires 'Alien::qd';
+#requires 'Alien::qd'; # Moved
 requires 'Alien::xz';
 requires 'Alien::git';
 requires 'Alien::FFI';
 requires 'Alien::GMP';
-requires 'Alien::GSL';
+#requires 'Alien::GSL'; # Moved
 requires 'Alien::IE7';
-requires 'Alien::IUP';
+#requires 'Alien::IUP'; # Moved
 requires 'Alien::LZO';
 requires 'Alien::bz2';
-requires 'Alien::Lua';
-requires 'Alien::NSS';
+#requires 'Alien::Lua'; # Moved
+#requires 'Alien::NSS'; # Moved
 requires 'Alien::OTR';
 requires 'Alien::PNG';
-requires 'Alien::SDL';
+#requires 'Alien::SDL'; # Moved
 requires 'Alien::SVN';
 #requires 'Alien::WiX';
 requires 'Alien::XPA';
 requires 'Alien::ZMQ';
-requires 'Alien::uPB';
-requires 'Alien::CImg';
+#requires 'Alien::uPB'; # Moved
+#requires 'Alien::CImg'; # Moved
 requires 'Alien::FLTK';
-requires 'Alien::GEOS';
+#requires 'Alien::GEOS'; # Moved
 requires 'Alien::Gfsm';
-requires 'Alien::Hush';
+#requires 'Alien::Hush'; # Moved
 requires 'Alien::Jerl';
 requires 'Alien::Judy';
 requires 'Alien::LMDB';
 #requires 'Alien::MSYS';
 requires 'Alien::Moot';
-requires 'Alien::ROOT';
-requires 'Alien::SDL2';
-requires 'Alien::SFML';
+#requires 'Alien::ROOT'; # Moved
+#requires 'Alien::SDL2'; # Moved
+#requires 'Alien::SFML'; # Moved
 requires 'Alien::SNMP';
 requires 'Alien::TACO';
-requires 'Alien::WFDB';
+#requires 'Alien::WFDB'; # Moved
 requires 'Alien::caca';

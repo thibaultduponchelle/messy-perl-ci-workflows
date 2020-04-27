@@ -3,20 +3,20 @@ requires 'Alien::pkgconf';
 requires 'Alien::ActiveMQ';
 requires 'Alien::Capstone';
 requires 'Alien::Chipmunk';
-requires 'Alien::Editline';
+#requires 'Alien::Editline'; # Moved
 requires 'Alien::Electron';
 requires 'Alien::Hunspell';
 requires 'Alien::Keystone';
 requires 'Alien::LibGumbo';
-requires 'Alien::LibMagic';
-requires 'Alien::Libevent';
+#requires 'Alien::LibMagic'; # Moved
+#requires 'Alien::Libevent';
 requires 'Alien::LibreSSL';
 requires 'Alien::Lightbox';
 requires 'Alien::OpenJPEG';
 requires 'Alien::Protobuf';
 requires 'Alien::SamTools';
 requires 'Alien::Selenium';
-requires 'Alien::UDUNITS2';
+#requires 'Alien::UDUNITS2'; # Moved
 requires 'Alien::Unicruft';
 requires 'Alien::autoconf';
 requires 'Alien::automake';
@@ -24,17 +24,17 @@ requires 'Alien::help2man';
 requires 'Alien::liburing';
 requires 'Alien::pdf2json';
 requires 'Alien::premake5';
-requires 'Alien::sispmctl';
+#requires 'Alien::sispmctl'; # Moved
 requires 'Alien::wasmtime';
 requires 'Alien::Autotools';
 requires 'Alien::CodePress';
 requires 'Alien::Doxyparse';
-requires 'Alien::FontForge';
-requires 'Alien::FreeImage';
+#requires 'Alien::FontForge'; # Moved
+#requires 'Alien::FreeImage'; # Moved
 requires 'Alien::GvaScript';
 requires 'Alien::Leptonica';
-requires 'Alien::LibBigWig';
-requires 'Alien::Libgcrypt';
+#requires 'Alien::LibBigWig'; # Moved
+#requires 'Alien::Libgcrypt'; # Moved
 requires 'Alien::Prototype';
 requires 'Alien::SLOCCount';
 requires 'Alien::SwaggerUI';

@@ -9,6 +9,7 @@ requires 'Alien::NSS';
 requires 'Alien::ROOT';
 requires 'Alien::SDL'; 
 requires 'Alien::SDL2';
+requires 'Alien::SNMP';
 requires 'Alien::SFML'; 
 requires 'Alien::WFDB'; 
 requires 'Alien::qd'; 

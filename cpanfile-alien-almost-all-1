@@ -34,7 +34,7 @@ requires 'Alien::Moot';
 #requires 'Alien::ROOT'; # Moved
 #requires 'Alien::SDL2'; # Moved
 #requires 'Alien::SFML'; # Moved
-requires 'Alien::SNMP';
+#requires 'Alien::SNMP'; # Moved
 #requires 'Alien::TACO'; # Moved
 #requires 'Alien::WFDB'; # Moved
 requires 'Alien::caca';

@@ -36,6 +36,7 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/multiple-runs-of-cpm/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/multiple-runs-of-cpm-global/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/problem-childs/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
+[![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/spatialite/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 
 
 # Messy Perl github ci workflows

@@ -1,6 +1,6 @@
 requires 'Alien::JPCRE2';
 #requires 'Alien::LibANN';
-requires 'Alien::Sodium';
+#requires 'Alien::Sodium';
 requires 'Alien::Thrust';
 requires 'Alien::TinyCC';
 requires 'Alien::Uninum';

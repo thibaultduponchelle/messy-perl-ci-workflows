@@ -15,3 +15,5 @@ requires 'Alien::Gimp';
 requires 'Alien::HDF4';
 requires 'Alien::wxWidgets';
 requires 'Alien::ProtoBuf';
+requires 'Alien::Sodium';
+requires 'Alien::HIDAPI';

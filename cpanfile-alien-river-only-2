@@ -17,4 +17,4 @@ requires 'Alien::libuv';
 requires 'Alien::patch';
 requires 'Alien::GCrypt';
 requires 'Alien::GfsmXL';
-requires 'Alien::HIDAPI';
+#requires 'Alien::HIDAPI';

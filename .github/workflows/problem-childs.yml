@@ -21,7 +21,7 @@ jobs:
         run: perl -V
       - name: Install libdb
         run: |
-          apt-get update
-          apt-get install libdb-dev
+          sudo apt-get update
+          sudo apt-get install libdb-dev
       - name: Install Dependencies
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure XML::Parser DB_File Net::SSLeay Math::BigInt::GMP

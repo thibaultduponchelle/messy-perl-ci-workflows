@@ -1,4 +1,4 @@
-name: linux-vendor-cpanminus
+name: sodium
 
 on: 
   push:

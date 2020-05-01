@@ -50,7 +50,6 @@ It can be also for some testing.
 
 ## Travis
 
-
 ### Mandatory kit 
 
 Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
@@ -117,4 +116,8 @@ See for instance this [failed run](https://github.com/thibaultduponchelle/messy-
 ### Check syntax
 
 Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...).
+
+## Resources
+
+- [Skaji blog post about github actions for Perl](https://medium.com/@skaji/perl-meets-github-actions-3893ae100205) [skaji github ci samples](https://github.com/skaji/perl-github-actions-sample)
 

@@ -40,7 +40,7 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](actions)
-[![](https://github.com/thibaultduponchelle/aliens-ci/workflows/1/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A1)
+[![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/1/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3A1)
 
 
 # Messy Perl ci workflows
@@ -53,47 +53,6 @@ This is a repository to give some inspiration to my Perl fellow developers.
 
 It can be also for some testing.
 
-## Travis
-
-### Mandatory kit 
-
-Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
-
-Check the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl)
-
-### Activation
-
-You also need to activate `Travis CI` for your repository (connect to travis website with github credentials).
-
-### Badges
-
-[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows) 
-
-Code :
-```
-[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows) 
-```
-
-### Extra bits
-
-If your Perl version gets removed suddenly, it's probably because you are attached to a *floating* platform and the *latest* changed from one Ubuntu LTS to another Ubuntu LTS (for instance).
-
-You can fix it by forcing the platform.
-
-#### Examples 
-
-- [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
-- [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
-
-## Azur pipelines
-
-Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)
-
-### Helpers 
-
-See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
-
-
 ## Github actions workflows
 
 First check [Skaji blog post about github actions for Perl](https://medium.com/@skaji/perl-meets-github-actions-3893ae100205) and [skaji github ci samples](https://github.com/skaji/perl-github-actions-sample) :smiley:
@@ -104,6 +63,27 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 - [Install with cpanm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpanm))
 - [Setup Perl Environment](https://github.com/marketplace/actions/setup-perl-environment) ([github repo](https://github.com/shogo82148/actions-setup-perl))
 - [Perl Critic](https://github.com/marketplace/actions/github-action-for-perl-critic) ([github repo](https://github.com/Difegue/action-perlcritic))
+
+
+### Examples 
+
+#### Create perl docker images
+- [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
+- [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
+
+#### Install or test modules
+- [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)
+- [windows and cpanm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
+- [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
+- [build alien with cpanminus on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpanminus.yml)
+- [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
+- [build and test with vendor perl](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-vendor-cpanminus.yml)
+
+#### Use perl containers 
+- [matrix + perl containers](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-perl-container-cpm.yml)
+- [use houseabsolute container](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/houseabsolute.yml)
+- [use official docker image 5.30.2](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/official-docker.yml)
+- [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
 
 ### Limits 
 
@@ -154,39 +134,42 @@ Click and click again :
 
 ![](replay2.png)
 
-### Badges
-
-[![linux-check-syntax](https://github.com/thibaultduponchelle/aliens-ci/workflows/linux-check-syntax/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3Alinux-check-syntax)
-
-Code : 
-
-```
-[![linux-check-syntax](https://github.com/thibaultduponchelle/aliens-ci/workflows/linux-check-syntax/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3Alinux-check-syntax)
-```
-
-### Examples 
-
-#### Create perl docker images
-- [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
-- [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
-
-#### Install or test modules
-- [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)
-- [windows and cpanm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
-- [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
-- [build alien with cpanminus on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpanminus.yml)
-- [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
-- [build and test with vendor perl](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-vendor-cpanminus.yml)
-
-#### Use perl containers 
-- [matrix + perl containers](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-perl-container-cpm.yml)
-- [use houseabsolute container](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/houseabsolute.yml)
-- [use official docker image 5.30.2](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/official-docker.yml)
-- [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
-
 #### Other
 
 - [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
+
+
+## Travis
+
+### Mandatory kit 
+
+Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
+
+Check the documentation about [Travis Perl helper](https://docs.travis-ci.com/user/languages/perl)
+
+### Activation
+
+You also need to activate `Travis CI` for your repository (connect to travis website with github credentials).
+
+### Extra bits
+
+If your Perl version gets removed suddenly, it's probably because you are attached to a *floating* platform and the *latest* changed from one Ubuntu LTS to another Ubuntu LTS (for instance).
+
+You can fix it by forcing the platform.
+
+#### Examples 
+
+- [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
+- [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
+
+## Azur pipelines
+
+Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)
+
+### Helpers 
+
+See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
+
 
 ## Appveyor
 

@@ -1,7 +1,6 @@
 name : perl-blead
 
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 

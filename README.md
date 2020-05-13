@@ -65,6 +65,15 @@ Check the documentation about [Travis Perl helper](https://docs.travis-ci.com/us
 
 You also need to activate `Travis CI` for your repository (connect to travis website with github credentials).
 
+### Badges
+
+[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows) 
+
+Code :
+```
+[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows) 
+```
+
 ### Extra bits
 
 If your Perl version gets removed suddenly, it's probably because you are attached to a *floating* platform and the *latest* changed from one Ubuntu LTS to another Ubuntu LTS (for instance).
@@ -144,6 +153,16 @@ On the right you have a new button :
 Click and click again :
 
 ![](replay2.png)
+
+### Badges
+
+[![linux-check-syntax](https://github.com/thibaultduponchelle/aliens-ci/workflows/linux-check-syntax/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3Alinux-check-syntax)
+
+Code : 
+
+```
+[![linux-check-syntax](https://github.com/thibaultduponchelle/aliens-ci/workflows/linux-check-syntax/badge.svg)](https://github.com/thibaultduponchelle/aliens-ci/actions?query=workflow%3Alinux-check-syntax)
+```
 
 ### Examples 
 

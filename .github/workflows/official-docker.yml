@@ -1,0 +1,17 @@
+name : official-docker-5.30.2
+
+on:
+  push:
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+    container: perl:5.30.2
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: perl -V
+        run: perl -V
+      - name: Install alien
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Test::Alien::CPP

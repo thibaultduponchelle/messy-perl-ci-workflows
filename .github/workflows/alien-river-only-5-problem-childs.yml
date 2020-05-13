@@ -1,6 +1,7 @@
 name: alien-river-only-5-problem-childs
 
 on:
+  push:
   schedule:
     - cron: 0 0 * * *
 
@@ -13,5 +14,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: perl -V
         run: perl -V
-      #- name: Install Dependencies
-      #  run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --cpanfile=cpanfile-alien-river-only-5-problem-childs
+      - name: Install aliens
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --cpanfile=cpanfile-alien-river-only-5-problem-childs

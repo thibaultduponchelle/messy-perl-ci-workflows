@@ -39,6 +39,8 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/spatialite/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 
+[![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](actions) 
+
 
 # Messy Perl ci workflows
 

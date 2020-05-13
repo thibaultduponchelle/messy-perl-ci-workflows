@@ -1,0 +1,19 @@
+name : houseabsolute
+
+on:
+  push:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+    container: houseabsolute/ci-perl-helpers-ubuntu:blead-master
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: prelbrew and perl -V 
+        run: perlbrew exec --with tools-perl perl -V  
+      - name: prelbrew and install module
+        run: perlbrew exec --with tools-perl curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure Acme::Damn

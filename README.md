@@ -40,7 +40,9 @@
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 
 
-# Messy Perl github ci workflows
+# Messy Perl ci workflows
+
+This not Perl that is messy :grinning:
 
 ## General
 

@@ -67,11 +67,8 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 
 ### Examples 
 
-#### Create perl docker images
-- [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
-- [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
 
-#### Install or test modules
+#### Install/test/lint modules
 - [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)
 - [windows and cpanm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
 - [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
@@ -84,6 +81,10 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 - [use houseabsolute container](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/houseabsolute.yml)
 - [use official docker image 5.30.2](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/official-docker.yml)
 - [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
+
+#### Create perl docker images (to be used in other workflows)
+- [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
+- [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
 
 ### Limits 
 

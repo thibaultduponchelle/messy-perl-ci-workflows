@@ -68,6 +68,10 @@ If your Perl version gets removed suddenly, it's probably because you are attach
 
 You can fix it by forcing the platform.
 
+#### Examples 
+
+- [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
+
 ## Azur pipelines
 
 Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)

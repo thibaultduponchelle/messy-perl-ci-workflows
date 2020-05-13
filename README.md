@@ -162,6 +162,10 @@ Click and click again :
 - [use official docker image 5.30.2](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/official-docker.yml)
 - [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
 
+#### Other
+
+- [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
+
 ## Appveyor
 
 ### Examples 

@@ -209,6 +209,13 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 - [build an alien](https://github.com/plicease/Alien-Expat/blob/master/.appveyor.yml)
 
 
+## Azure Pipelines
+
+### Examples
+
+- [build windows linux macos + coverage](https://github.com/houseabsolute/test-class-moose/blob/master/azure-pipelines.yml)
+
+
 ## Other
 
 - [cip helpers (travis, github actions...)](https://github.com/plicease/cip)

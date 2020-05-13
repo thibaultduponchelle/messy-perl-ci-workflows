@@ -90,14 +90,20 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 - [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
 - [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
 
-### Limits 
+
+#### Other
+- [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
+
+### Caveats
+
+#### Limits 
 
 There is a limit in how much github actions you can run on private repositories.
 It's a matter of storage and run duration. The duration depends the platform (linux is cheap, windows is less, and macos is very expensive).
 
 ![ghactionslimits](ghactionslimits.png)
 
-### Containers limitation
+#### Containers limitation
 
 You can only launch containers from a GNU/Linux host.
 For instance, if you specify `run-on: macOS-latest`, you won't be able to use `container:` :
@@ -125,6 +131,32 @@ Will produce :
 
 See for instance this [failed run](https://github.com/thibaultduponchelle/messy-perl-github-actions/runs/608005097?check_suite_focus=true)
 
+#### Cron
+
+Sometimes cron requires to be quoted because `*` have a special meaning in yml
+
+You can do :
+```
+on:
+  schedule:
+    cron: 0 0 * * *
+```
+(every night a 0h00)
+
+But you can't do this:
+
+```
+on:
+  schedule:
+    cron: */15 * * * *
+```
+(every 15 minutes)
+
+You have to quote like this :
+```
+cron: '*/15 * * * *'
+```
+
 ### Replay a job
 
 To acccess the replay button, go in actions, select the step (here it is `perl`) :
@@ -138,10 +170,6 @@ On the right you have a new button :
 Click and click again :
 
 ![](replay2.png)
-
-#### Other
-
-- [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
 
 
 ## Travis

@@ -1,6 +1,5 @@
 name: linux-github-action-install-with-cpanminus
 on: 
-  push:
   schedule:
     - cron: 0 0 * * *
 

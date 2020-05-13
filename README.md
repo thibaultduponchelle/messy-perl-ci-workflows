@@ -122,13 +122,16 @@ See for instance this [failed run](https://github.com/thibaultduponchelle/messy-
 ### Replay a job
 
 To acccess the replay button, go in actions, select the step (here it is `perl`) :
+
 ![](replay0.png)
 
 On the right you have a new button :
+
 ![](replay1.png)
 
 Click and click again :
-![](replay1.png)
+
+![](replay2.png)
 
 ### Examples 
 

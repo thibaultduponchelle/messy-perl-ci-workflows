@@ -1,9 +1,6 @@
 name: linux-vendor-cpanminus
 
 on: 
-  push:
-    branches:
-      - '*'
   schedule:
     - cron: 0 0 * * *
 

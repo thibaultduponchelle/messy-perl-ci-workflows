@@ -1,8 +1,5 @@
 name: linux-check-syntax
 on: 
-  push:
-    branches:
-      - '*'
   schedule:
     - cron: 0 0 * * *
 

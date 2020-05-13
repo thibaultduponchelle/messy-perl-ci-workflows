@@ -1,8 +1,5 @@
 name: linux-github-action-install-with-cpm
 on: 
-  push:
-    branches:
-      - '*'
   schedule:
     - cron: 0 0 * * *
 

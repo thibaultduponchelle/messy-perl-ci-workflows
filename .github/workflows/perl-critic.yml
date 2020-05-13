@@ -1,8 +1,5 @@
 name: perl-critic
 on: 
-  push:
-    branches:
-      - '*'
   schedule:
     - cron: 0 0 * * *
 

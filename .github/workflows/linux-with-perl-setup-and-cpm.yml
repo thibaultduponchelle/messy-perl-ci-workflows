@@ -1,9 +1,6 @@
 name: linux-with-perl-setup-and-cpm
 
 on: 
-  push:
-    branches:
-      - '*'
   schedule:
     - cron: 0 0 * * *
 

@@ -84,6 +84,8 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 
 ## Github actions workflows
 
+First check [Skaji blog post about github actions for Perl](https://medium.com/@skaji/perl-meets-github-actions-3893ae100205) and [skaji github ci samples](https://github.com/skaji/perl-github-actions-sample) :smiley:
+
 ### Ready to use github actions
 
 - [Install with cpm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpm))
@@ -177,5 +179,4 @@ Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...
 
 ## Resources
 
-- [Skaji blog post about github actions for Perl](https://medium.com/@skaji/perl-meets-github-actions-3893ae100205) [skaji github ci samples](https://github.com/skaji/perl-github-actions-sample)
 

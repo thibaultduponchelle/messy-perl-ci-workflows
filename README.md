@@ -71,6 +71,7 @@ You can fix it by forcing the platform.
 #### Examples 
 
 - [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
+- [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
 
 ## Azur pipelines
 
@@ -157,6 +158,16 @@ Click and click again :
 - [use official docker image 5.30.2](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/official-docker.yml)
 - [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
 
+## Appveyor
+
+### Examples 
+
+- [build an alien](https://github.com/plicease/Alien-Expat/blob/master/.appveyor.yml)
+
+
+## Other
+
+- [cip helpers (travis, github actions...)](https://github.com/plicease/cip)
 
 ## Notes 
 

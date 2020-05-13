@@ -42,7 +42,7 @@
 
 # Messy Perl ci workflows
 
-This not Perl that is messy :grinning:
+(this not Perl that is messy :grinning:)
 
 ## General
 

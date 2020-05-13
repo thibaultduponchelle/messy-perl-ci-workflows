@@ -12,6 +12,7 @@ jobs:
       run: perl -V
     - name: install cpm and multiple modules
       uses: perl-actions/install-with-cpanm@v1.1
+      with:
         install:
           Acme::LSD
     - name: Run Tests

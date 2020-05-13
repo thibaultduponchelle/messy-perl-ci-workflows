@@ -66,6 +66,14 @@ If your Perl version gets removed suddenly, it's probably because you are attach
 
 You can fix it by forcing the platform.
 
+## Azur pipelines
+
+Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)
+
+### Helpers 
+
+See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
+
 
 ## Github actions workflows
 
@@ -110,6 +118,25 @@ Will produce :
 ``` 
 
 See for instance this [failed run](https://github.com/thibaultduponchelle/messy-perl-github-actions/runs/608005097?check_suite_focus=true)
+
+### Examples 
+
+#### Create perl docker images
+- [build perl blead and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
+
+#### Install or test modules
+- [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)
+- [windows and cpanm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
+- [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
+- [build alien with cpanminus on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpanminus.yml)
+- [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
+
+#### Use perl containers 
+- [matrix + perl containers](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-perl-container-cpm.yml)
+- [use houseabsolute container](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/houseabsolute.yml)
+- [use official docker image 5.30.2](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/official-docker.yml)
+- [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
+
 
 ## Notes 
 

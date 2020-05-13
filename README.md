@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows) 
+[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows)
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/linux-check-syntax/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/linux-github-action-install-with-cpanminus/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 
 [![Actions Status](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/linux-github-action-install-with-cpm/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions) 

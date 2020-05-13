@@ -1,7 +1,6 @@
 name : official-docker-5.30.2
 
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 

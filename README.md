@@ -67,7 +67,6 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 - [Setup Perl Environment](https://github.com/marketplace/actions/setup-perl-environment) ([github repo](https://github.com/shogo82148/actions-setup-perl))
 - [Perl Critic](https://github.com/marketplace/actions/github-action-for-perl-critic) ([github repo](https://github.com/Difegue/action-perlcritic))
 
-
 ### Examples 
 
 #### Install/test/lint modules
@@ -219,6 +218,10 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 ## Other
 
 - [cip helpers (travis, github actions...)](https://github.com/plicease/cip)
+
+## Badges and releasing tools
+
+Dist::Zilla, Minilla and friends obviously support adding badges to your README.md !
 
 ## Notes 
 

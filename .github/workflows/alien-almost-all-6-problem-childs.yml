@@ -1,6 +1,7 @@
 name: alien-almost-all-6-problem-childs
 
 on:
+  push:
   schedule:
     - cron: 0 0 * * *
 

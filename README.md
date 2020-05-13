@@ -70,7 +70,6 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 
 ### Examples 
 
-
 #### Install/test/lint modules
 - [windows and cpanm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
 - [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
@@ -78,7 +77,6 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 - [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
 - [build and test with vendor perl](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-vendor-cpanminus.yml)
 - [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)
-
 
 #### Use perl containers 
 - [matrix + perl containers](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-perl-container-cpm.yml)
@@ -92,6 +90,7 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 
 
 #### Other
+- [build old perl on recent ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.6.2-on-recent-ubuntu.yml)
 - [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
 
 ### Caveats
@@ -222,5 +221,4 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...).
 
 ## Resources
-
 

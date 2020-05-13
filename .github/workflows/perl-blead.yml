@@ -1,0 +1,21 @@
+name : perl-blead
+
+on:
+  push:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  perl:
+
+    runs-on: ubuntu-latest
+    container: tibtibdocker/perl-blead
+
+    steps:
+      - name: install curl
+        run: apt-get -y install curl
+      - uses: actions/checkout@v2
+      - name: perl -V 
+        run: /opt/perl/bin/perl -V  
+      - name: install module
+        run: curl -sL https://git.io/cpm | /opt/perl/bin/perl - install --show-build-log-on-failure Acme::Damn

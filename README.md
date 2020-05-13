@@ -145,7 +145,8 @@ Click and click again :
 ### Examples 
 
 #### Create perl docker images
-- [build perl blead and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
+- [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
+- [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
 
 #### Install or test modules
 - [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)

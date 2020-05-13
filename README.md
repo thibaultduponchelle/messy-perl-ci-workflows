@@ -48,7 +48,13 @@
 
 This is a repository to give some inspiration to my Perl fellow developers.
 
-It can be also for some testing.
+I use it also as a ci playground for testing.
+
+### Docker images
+
+- [official docker images](https://hub.docker.com/_/perl) from [docker-perl repo](https://github.com/Perl/docker-perl)
+- [houseabsolute perl images](https://hub.docker.com/r/houseabsolute/ci-perl-helpers-ubuntu)
+- ["less than 20 minutes old" perl blead (mine)](https://hub.docker.com/r/tibtibdocker/perl-blead)
 
 ## Github actions workflows
 

@@ -1,7 +1,6 @@
 name: alien-river-only-5-problem-childs
 
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 

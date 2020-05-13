@@ -153,6 +153,7 @@ Click and click again :
 - [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
 - [build alien with cpanminus on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpanminus.yml)
 - [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
+- [build and test with vendor perl](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-vendor-cpanminus.yml)
 
 #### Use perl containers 
 - [matrix + perl containers](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-perl-container-cpm.yml)

@@ -174,6 +174,11 @@ Click and click again :
 
 ## Travis
 
+### Examples 
+
+- [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
+- [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
+
 ### Mandatory kit 
 
 Please note that your repository needs to include a `Build.PL`, a `Makefile.PL` or a `makefile` (with a `test` target).
@@ -190,10 +195,6 @@ If your Perl version gets removed suddenly, it's probably because you are attach
 
 You can fix it by forcing the platform.
 
-#### Examples 
-
-- [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
-- [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
 
 ## Appveyor
 
@@ -206,13 +207,13 @@ You can fix it by forcing the platform.
 
 Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)
 
-### Helpers 
-
-See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
-
 ### Examples
 
 - [build windows linux macos + coverage](https://github.com/houseabsolute/test-class-moose/blob/master/azure-pipelines.yml)
+
+### Helpers 
+
+See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
 
 
 ## Other

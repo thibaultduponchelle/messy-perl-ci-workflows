@@ -90,6 +90,7 @@ First check [Skaji blog post about github actions for Perl](https://medium.com/@
 #### Other
 - [build old perl on recent ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.6.2-on-recent-ubuntu.yml)
 - [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
+- [simple nightly build echo](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/nightly-build.yml)
 
 ### Caveats
 
@@ -192,15 +193,6 @@ You can fix it by forcing the platform.
 - [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
 - [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
 
-## Azur pipelines
-
-Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)
-
-### Helpers 
-
-See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
-
-
 ## Appveyor
 
 ### Examples 
@@ -209,6 +201,12 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 
 
 ## Azure Pipelines
+
+Check this [house absolute blog post](https://blog.urth.org/2019/11/18/my-new-ci-helpers-for-perl/)
+
+### Helpers 
+
+See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers) 
 
 ### Examples
 
@@ -222,6 +220,9 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 ## Badges and releasing tools
 
 Dist::Zilla, Minilla and friends obviously support adding badges to your README.md !
+- [Dist::Zilla badges plugin](https://metacpan.org/pod/Dist::Zilla::Plugin::GitHubREADME::Badge)
+- [Minilla badges](https://metacpan.org/pod/Minilla#badges)
+
 
 ## Notes 
 

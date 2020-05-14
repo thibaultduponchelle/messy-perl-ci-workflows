@@ -176,7 +176,7 @@ Click and click again :
 
 ### Examples 
 
-- [simple multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
+- [(simplest ever) multi perl testing](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.travis.yml)
 - [caching + alien install](https://github.com/plicease/Alien-Expat/blob/master/.travis.yml) 
 
 ### Mandatory kit 

@@ -225,7 +225,7 @@ Nothing here at the moment
 
 ## Badges and releasing tools
 
-Dist::Zilla, Minilla and friends obviously support adding badges to your README.md !
+Dist::Zilla, Minilla and friends obviously support adding badges when they generate your README.md !
 - [Dist::Zilla badges plugin](https://metacpan.org/pod/Dist::Zilla::Plugin::GitHubREADME::Badge)
 - [Minilla badges](https://metacpan.org/pod/Minilla#badges)
 

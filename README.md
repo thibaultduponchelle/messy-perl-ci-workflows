@@ -50,6 +50,8 @@ This is a repository to give some inspiration/hints to my fellow Perl developers
 
 I use it also as a ci playground for testing :hammer_and_wrench:
 
+It is mainly github actions related ci at the moment.
+
 ### Docker images
 
 - [official docker images](https://hub.docker.com/_/perl) from [docker-perl repo](https://github.com/Perl/docker-perl)

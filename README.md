@@ -235,6 +235,12 @@ See [houseabsolute ci helpers](https://github.com/houseabsolute/ci-perl-helpers)
 
 Nothing here at the moment
 
+## Cirrus ci
+
+### Examples 
+
+- [build module](https://github.com/shawnlaffan/perl-alien-libtiff/blob/master/.cirrus.yml)
+
 ## Other
 
 - [cip helpers (travis, github actions...)](https://github.com/plicease/cip)

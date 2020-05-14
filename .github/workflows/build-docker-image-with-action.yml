@@ -1,7 +1,6 @@
 name: build-docker-image-with-action
 
 on:
-  push:
 
 jobs:
   perl:

@@ -86,10 +86,10 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 - [use perl blead](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-blead.yml)
 
 #### Create perl docker images (to be used in other workflows)
-Put your recipe to build perl in the Dockerfile at repository root + setup one of these ci worklows :
 - [build docker image and push to docker hub](https://github.com/thibaultduponchelle/docker-perl-blead/blob/master/.github/workflows/perl-blead.yml)
 - [build docker image and push to docker hub (use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/build-docker-image-with-action.yml)
 - [build docker image and push to docker hub (use another helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/publish-to-docker-2.yml)
+(put your recipe to build perl in the Dockerfile at repository root)
 
 #### Other
 - [build old perl (5.6.2) on recent ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.6.2-on-recent-ubuntu.yml) (also [5.8.9](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.8.9-on-recent-ubuntu.yml) and [5.10.1](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.10.1-on-recent-ubuntu.yml))

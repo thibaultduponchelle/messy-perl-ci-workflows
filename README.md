@@ -46,7 +46,7 @@
 
 ## General
 
-This is a repository to give some inspiration and hints to my fellow Perl developers :smiley:
+This is a repository to give some inspiration/hints to my fellow Perl developers :smiley:
 
 I use it also as a ci playground for testing :hammer_and_wrench:
 

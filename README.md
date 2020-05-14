@@ -54,7 +54,7 @@ I use it also as a ci playground for testing.
 
 - [official docker images](https://hub.docker.com/_/perl) from [docker-perl repo](https://github.com/Perl/docker-perl)
 - [houseabsolute perl images](https://hub.docker.com/r/houseabsolute/ci-perl-helpers-ubuntu) from [houseabsolute ci-perl-helpers repo](https://github.com/houseabsolute/ci-perl-helpers)
-- [my "less than 20 minutes old" perl blead](https://hub.docker.com/r/tibtibdocker/perl-blead) from [my docker-perl-blead repo](https://github.com/thibaultduponchelle/docker-perl-blead)
+- [my "less than 20 minutes old" perl blead](https://hub.docker.com/r/tibtibdocker/perl-blead) from [docker-perl-blead repo](https://github.com/thibaultduponchelle/docker-perl-blead)
 - ["compilation optimized" perl image](https://hub.docker.com/r/at00mic/perl-compiler) from [at00mic perl-compiler repo](https://github.com/atoomic/perl-compiler)
 
 ## Github actions workflows

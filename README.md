@@ -63,10 +63,10 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 
 ### Ready to use github actions
 
-- [Install with cpm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpm))
-- [Install with cpanm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpanm))
-- [Setup Perl Environment](https://github.com/marketplace/actions/setup-perl-environment) ([github repo](https://github.com/shogo82148/actions-setup-perl))
-- [Perl Critic](https://github.com/marketplace/actions/github-action-for-perl-critic) ([github repo](https://github.com/Difegue/action-perlcritic))
+- [install with cpm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpm))
+- [install with cpanm](https://github.com/marketplace/actions/install-with-cpanm) ([github repo](https://github.com/perl-actions/install-with-cpanm))
+- [setup Perl environment](https://github.com/marketplace/actions/setup-perl-environment) ([github repo](https://github.com/shogo82148/actions-setup-perl))
+- [perl critic](https://github.com/marketplace/actions/github-action-for-perl-critic) ([github repo](https://github.com/Difegue/action-perlcritic))
 
 ### Examples 
 
@@ -77,7 +77,7 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 - [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
 - [build and test with vendor perl](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-vendor-cpanminus.yml)
 - [perl critic](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-critic.yml)
-- [Install all deps from cpanfile](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/mess.yml)
+- [install all deps from cpanfile](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/mess.yml)
 
 #### Use perl containers 
 - [matrix + perl containers](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-perl-container-cpm.yml)

@@ -106,7 +106,7 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 
 There is **no limit for public repositories** if you built too much it will queue and or fail (github will answer HTTP 429 too many requests). But you have to really build a lot... I have an [alien-ci repo](https://github.com/thibaultduponchelle/aliens-ci) that have more than 200 workflows that used to "build on push" in the past then it produced about 2000 builds during less than a week (and build duration is often > 10 mins... It's alien modules boy !)
 
-There is a small limit in how much github actions you can run on *private repositories* (for free).
+There is a **limit for private repositories** (for free).
 It's a matter of storage and run duration. The duration depends the platform (linux is cheap, windows is less, and macos is very expensive).
 
 ![ghactionslimits](ghactionslimits.png)

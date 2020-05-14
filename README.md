@@ -46,9 +46,9 @@
 
 ## General
 
-This is a repository to give some inspiration to my Perl fellow developers.
+This is a repository to give some inspiration and hints to my fellow Perl developers :smiley:
 
-I use it also as a ci playground for testing.
+I use it also as a ci playground for testing :hammer_and_wrench:
 
 ### Docker images
 

@@ -12,5 +12,5 @@ jobs:
       with:
         name: youruser/yourrepo
         username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_GITHUB_TOKEN }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: Dockerfile

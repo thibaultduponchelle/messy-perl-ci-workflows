@@ -244,5 +244,3 @@ Dist::Zilla, Minilla and friends obviously support adding badges when they gener
 ### Check syntax
 
 Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...).
-
-## Resources

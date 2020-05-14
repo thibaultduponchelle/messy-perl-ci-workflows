@@ -59,7 +59,7 @@ I use it also as a ci playground for testing.
 
 ## Github actions workflows
 
-First check [Skaji blog post about github actions for Perl](https://medium.com/@skaji/perl-meets-github-actions-3893ae100205) and [skaji github ci samples](https://github.com/skaji/perl-github-actions-sample) :smiley:
+First check [skaji blog post about github actions for Perl](https://medium.com/@skaji/perl-meets-github-actions-3893ae100205) and [skaji github ci samples](https://github.com/skaji/perl-github-actions-sample) :smiley:
 
 ### Ready to use github actions
 

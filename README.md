@@ -73,8 +73,8 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 ### Examples 
 
 #### Install/test/lint modules
-- [windows and cpanm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
-- [windows and cpm (do not use helper action for it)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
+- [windows and cpanm (do not use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpanminus.yml)
+- [windows and cpm (do not use helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/windows-cpm.yml)
 - [build alien with cpanminus on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpanminus.yml)
 - [build alien with cpm on macos](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/macos-share-cpm.yml)
 - [build and test with vendor perl](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/linux-vendor-cpanminus.yml)

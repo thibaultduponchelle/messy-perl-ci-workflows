@@ -243,7 +243,7 @@ Nothing here at the moment
 
 Dist::Zilla, Minilla and friends obviously support adding badges when they generate your README.md !
 - [Dist::Zilla badges plugin](https://metacpan.org/pod/Dist::Zilla::Plugin::GitHubREADME::Badge)
-- [Minilla badges](https://metacpan.org/pod/Minilla#badges)
+- [Minilla badges](https://metacpan.org/pod/Minilla#badges) see for instance [usage here](https://github.com/thibaultduponchelle/XML-Minifier/blob/master/minil.toml#L2)
 
 
 ## Notes 

@@ -91,7 +91,7 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 - [build docker image and push to docker hub (use another helper action)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/publish-to-docker-2.yml)
 
 #### Other
-- [build old perl (5.6.2) on recent ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.6.2-on-recent-ubuntu.yml) ([5.8.9](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.8.9-on-recent-ubuntu.yml) and [5.10.1](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.10.1-on-recent-ubuntu.yml))
+- [build old perl (5.6.2) on recent ubuntu](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.6.2-on-recent-ubuntu.yml) (also [5.8.9](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.8.9-on-recent-ubuntu.yml) and [5.10.1](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/perl-5.10.1-on-recent-ubuntu.yml))
 - [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci)
 - [simple nightly build echo](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/nightly-build.yml)
 

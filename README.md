@@ -177,6 +177,8 @@ The docker push jobs require to configure *secrets*. To add your username and pa
 
 ![](secrets.png)
 
+You can then access it with `${{ secrets.DOCKER_USERNAME }}` in your [workflow yml file](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/publish-to-docker-2.yml#L14)
+
 
 ## Travis
 

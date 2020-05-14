@@ -171,6 +171,12 @@ Click and click again :
 
 ![](replay2.png)
 
+### Secrets
+
+The docker push jobs require to configure *secrets*. To add your username and password, go in the github settings then create a variable and fill it like this :
+
+![](secrets.png)
+
 
 ## Travis
 

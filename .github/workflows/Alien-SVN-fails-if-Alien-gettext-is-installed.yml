@@ -15,7 +15,7 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Check installed debs
-        run: which dpkg 
+        run: sudo dpkg -l
       - name: Install some debs
         run: sudo apt-get install libaprutil1-dev libsqlite3-dev
       - name: Install Alien::Base::ModuleBuild needed by Alien::gettext

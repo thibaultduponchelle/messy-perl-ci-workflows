@@ -16,6 +16,8 @@ jobs:
         run: perl -V
       - name: Install some debs
         run: sudo apt-get install libaprutil1-dev libsqlite3-dev
+      - name: Install Alien::Base::ModuleBuild needed by Alien::gettext
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test Alien::Base::ModuleBuild
       - name: Install Alien::gettext
         run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test Alien::gettext
       - name: Install Alien::SVN

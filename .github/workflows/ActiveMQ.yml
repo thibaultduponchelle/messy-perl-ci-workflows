@@ -15,4 +15,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install alien
-        run: curl -L https://cpanmin.us | perl - dirt/Alien-ActiveMQ-0.00005.tar.gz
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test dirt/Alien-ActiveMQ-0.00005.tar.gz

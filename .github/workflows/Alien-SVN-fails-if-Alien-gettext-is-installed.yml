@@ -1,7 +1,6 @@
 name : Alien-SVN-fails-if-Alien-gettext-is-installed
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

@@ -1,6 +1,7 @@
 name : SNMP-cpm-Net-SNMP
 
 on:
+  push:
   schedule:
     - cron: 0 12 * * *
 
@@ -14,4 +15,4 @@ jobs:
       - name: perl -V
         run: perl -V
       - name: Install alien
-        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test dirt/Alien-SNMP-2.001001.tar.gz
+        run: curl -sL https://git.io/cpm | perl - install --show-build-log-on-failure --test dirt/Alien-SNMP-2.002000.tar.gz

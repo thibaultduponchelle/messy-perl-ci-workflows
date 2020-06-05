@@ -257,3 +257,10 @@ Dist::Zilla, Minilla and friends obviously support adding badges when they gener
 ### Check syntax
 
 Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...).
+
+
+## Other resources 
+
+- [perl-ci](https://gitlab.com/rsrchboy/perl-ci)
+- [Net::Gitlab](https://github.com/harleypig/Net-Gitlab)
+- [Perl git hooks](https://github.com/sukria/perl-git-hooks)

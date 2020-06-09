@@ -264,3 +264,4 @@ Executing `perl -c` on file could actually run them partially (`BEGIN` blocks...
 - [perl-ci](https://gitlab.com/rsrchboy/perl-ci)
 - [Net::Gitlab](https://github.com/harleypig/Net-Gitlab)
 - [Perl git hooks](https://github.com/sukria/perl-git-hooks)
+- [Docker perl tester](https://github.com/Perl/docker-perl-tester)

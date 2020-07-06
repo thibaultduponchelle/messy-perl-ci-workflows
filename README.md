@@ -100,6 +100,7 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 - [test the build of all aliens](https://github.com/thibaultduponchelle/aliens-ci) :alien:
 - [simple nightly build echo](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/nightly-build.yml)
 - [install from a distribution tarball in the repo](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/sodium.yml)
+- https://github.com/briandfoy/github_actions
 
 ### Caveats
 

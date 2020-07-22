@@ -1,7 +1,6 @@
 name : Alien-DBD-SQLite-BundlerExtensions
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

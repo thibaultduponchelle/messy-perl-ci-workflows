@@ -1,32 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@thibaultduponchelle
-thibaultduponchelle /
-aliens-ci
-
-2
-2
-
-    0
-
-Code
-Issues 0
-Pull requests 0
-Actions
-Projects 1
-Wiki
-Security 0
-Insights
-
-    Settings
-
-aliens-ci/.github/workflows/pkgconf-linux-distributions-matrix.yml
-@thibaultduponchelle thibaultduponchelle Update pkgconf-linux-distributions-matrix.yml 894f3e9 2 minutes ago
-43 lines (36 sloc) 1.04 KB
 name: cpm-broken-on-fedora
 on:
   push:

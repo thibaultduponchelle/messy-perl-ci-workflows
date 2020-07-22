@@ -1,7 +1,6 @@
-name : DBD-SQLite-BundleExtensions
+name : DBD-SQLite-BundlerExtensions
 
 on:
-  push:
   schedule:
     - cron: 0 12 * * *
 

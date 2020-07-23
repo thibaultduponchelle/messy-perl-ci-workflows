@@ -1,0 +1,19 @@
+name: gearman-macos-build-noifdef
+
+on:
+
+jobs:
+  gearman:
+    runs-on: macOS-latest
+    steps:
+      - name: Deps 
+        run: |
+          brew install boost
+      - name: Download
+        run: |
+          tar xvzf dirt/gearmand-1.1.19.1-noifdefatall.tar.gz
+      - name: Configure
+        run: |
+          cd gearmand-1.1.19.1-noifdefatall
+          ./configure
+          make

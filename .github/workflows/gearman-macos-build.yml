@@ -18,6 +18,4 @@ jobs:
         run: |
           cd gearmand-1.1.19.1
           ./configure
-      - name: Build
-        run: |
           make

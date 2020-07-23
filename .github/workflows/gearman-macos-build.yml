@@ -1,8 +1,7 @@
 name: gearman-macos-build
 
 on: 
-  push:
-    branches: foobar
+  push
   
 jobs:
   gearman:

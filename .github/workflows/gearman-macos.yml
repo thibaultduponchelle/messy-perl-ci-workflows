@@ -1,0 +1,16 @@
+name: gearman-macos
+
+on:
+  push
+
+jobs:
+  gearman:
+    runs-on: macOS-latest
+    steps:
+      - name: Download gearman
+        run: |
+          https://github.com/gearman/gearmand/releases/download/1.1.19.1/gearmand-1.1.19.1.tar.gz
+          tar xvzf gearmand-1.1.19.1.tar.gz
+          cd gearmand-1.1.19.1
+          ./configure 
+          cat gear_config.h

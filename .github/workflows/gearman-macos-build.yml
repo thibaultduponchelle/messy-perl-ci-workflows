@@ -1,7 +1,6 @@
 name: gearman-macos-build
 
 on:
-  push
 
 jobs:
   gearman:

@@ -1,5 +1,7 @@
 name: publish-to-docker-2
 
+on: []
+
 jobs:
   build:
     runs-on: ubuntu-latest

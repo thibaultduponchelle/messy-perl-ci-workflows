@@ -1,6 +1,5 @@
 name: cpm-broken-on-fedora
 on:
-  push:
   schedule:
     - cron: 0 0 * * *
 

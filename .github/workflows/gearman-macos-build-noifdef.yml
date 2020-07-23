@@ -1,6 +1,8 @@
 name: gearman-macos-build-noifdef
 
-on: []
+on: 
+    push:
+        branches: foobar
     
 jobs:
   gearman:

@@ -1,5 +1,7 @@
 name: gearman-macos-build
 
+on: []
+  
 jobs:
   gearman:
     runs-on: macOS-latest

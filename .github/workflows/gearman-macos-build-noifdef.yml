@@ -1,7 +1,8 @@
 name: gearman-macos-build-noifdef
 
 on:
-
+  push
+    
 jobs:
   gearman:
     runs-on: macOS-latest

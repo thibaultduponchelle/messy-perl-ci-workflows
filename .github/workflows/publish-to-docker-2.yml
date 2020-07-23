@@ -1,6 +1,7 @@
 name: publish-to-docker-2
 
-on: []
+on: 
+  push:
 
 jobs:
   build:

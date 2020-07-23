@@ -1,6 +1,8 @@
 name: build-docker-image-with-action
 
 on:
+  push:
+    branches: foobar
 
 jobs:
   perl:

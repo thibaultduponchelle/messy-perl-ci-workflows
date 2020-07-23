@@ -12,6 +12,6 @@ jobs:
           wget https://github.com/gearman/gearmand/releases/download/1.1.19.1/gearmand-1.1.19.1.tar.gz
           tar xvzf gearmand-1.1.19.1.tar.gz
           cd gearmand-1.1.19.1
-          sudo port install boost
+          brew install boost
           ./configure 
           cat gear_config.h

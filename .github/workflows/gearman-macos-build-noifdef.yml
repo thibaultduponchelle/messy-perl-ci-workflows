@@ -12,7 +12,8 @@ jobs:
           brew install boost
       - name: Download
         run: |
-          tar xvzf dirt/gearmand-1.1.19.1-noifdefatall.tar.gz
+          wget https://github.com/thibaultduponchelle/messy-perl-ci-workflows/raw/master/dirt/gearmand-1.1.19.1-noifdefatall.tar.gz
+          tar xvzf gearmand-1.1.19.1-noifdefatall.tar.gz
       - name: Configure
         run: |
           cd gearmand-1.1.19.1-noifdefatall

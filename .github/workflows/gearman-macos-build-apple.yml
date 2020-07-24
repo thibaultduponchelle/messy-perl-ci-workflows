@@ -1,0 +1,21 @@
+name: gearman-macos-build-apple
+
+on:
+  push
+  
+jobs:
+  gearman:
+    runs-on: macOS-latest
+    steps:
+      - name: Deps 
+        run: |
+          brew install boost
+      - name: Download
+        run: |
+          wget https://github.com/thibaultduponchelle/messy-perl-ci-workflows/raw/master/dirt/gearmand-1.1.19.1-apple.tar.gz
+          tar xvzf gearmand-1.1.19.1-apple.tar.gz
+      - name: Configure
+        run: |
+          cd gearmand-1.1.19.1-apple
+          ./configure
+          make

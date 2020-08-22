@@ -59,6 +59,7 @@ It is mainly github actions related ci at the moment.
 - ["less than 20 minutes old" perl blead image](https://hub.docker.com/r/tibtibdocker/perl-blead) from [my docker-perl-blead repo](https://github.com/thibaultduponchelle/docker-perl-blead)
 - ["compilation optimized" perl image](https://hub.docker.com/r/at00mic/perl-compiler) from [at00mic perl-compiler repo](https://github.com/atoomic/perl-compiler)
 - [docker perl alt](https://github.com/melo/docker-perl-alt)
+- [buzz](https://github.com/mfontani/buzz)
 
 ## Github actions workflows
 

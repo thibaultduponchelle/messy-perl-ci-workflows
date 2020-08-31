@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-perl-ci-workflows)
+[![Build Status](https://travis-ci.org/thibaultduponchelle/messy-ci-workflows.svg?branch=master)](https://travis-ci.org/thibaultduponchelle/messy-ci-workflows)
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/linux-check-syntax/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions?query=workflow%3Alinux-check-syntax)
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/linux-github-action-install-with-cpanminus/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions?query=workflow%3Alinux-github-action-install-with-cpanminus) 
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/linux-github-action-install-with-cpm/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions?query=workflow%3Alinux-github-action-install-with-cpm) 
@@ -102,6 +102,7 @@ First check [skaji blog post about github actions for Perl](https://medium.com/@
 - [simple nightly build echo](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/nightly-build.yml)
 - [install from a distribution tarball in the repo](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/blob/master/.github/workflows/sodium.yml)
 - https://github.com/briandfoy/github_actions
+- [codecov Perl examples](https://github.com/codecov/example-perl)
 
 ### Caveats
 

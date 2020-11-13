@@ -40,9 +40,7 @@
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions?query=workflow%3Asodium) 
 
 
-# Messy Perl ci workflows
-
-(this not Perl that is messy :grinning: the mess is in my brain :confounded:)
+# Messy CI workflows
 
 ## General
 

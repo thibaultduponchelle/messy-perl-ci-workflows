@@ -58,6 +58,8 @@ It is mainly github actions related ci at the moment.
 - ["compilation optimized" perl image](https://hub.docker.com/r/at00mic/perl-compiler) from [at00mic perl-compiler repo](https://github.com/atoomic/perl-compiler)
 - [docker perl alt](https://github.com/melo/docker-perl-alt)
 - [buzz](https://github.com/mfontani/buzz)
+- [Perl 5.32 slim](https://github.com/cpanery/perl-slim)
+- [Perl 5.32](https://github.com/cpanery/perl-b8sd)
 
 ## Github actions workflows
 

@@ -39,7 +39,6 @@
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/spatialite/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions?query=workflow%3Aspatialite) 
 [![](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/workflows/sodium/badge.svg)](https://github.com/thibaultduponchelle/messy-perl-ci-workflows/actions?query=workflow%3Asodium) 
 
-
 # Messy CI workflows
 
 ## General

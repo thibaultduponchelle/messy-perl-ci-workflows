@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    name: Check EUMM version
+    steps:
+    - name: Configure
+      run: perl -e 'use ExtUtils::MakeMaker; print ExtUtils::MakeMaker->VERSION'

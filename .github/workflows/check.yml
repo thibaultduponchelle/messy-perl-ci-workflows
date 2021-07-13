@@ -1,6 +1,6 @@
 name: check-syntax
 
-on: [push]
+on:
 
 jobs:
   perl:

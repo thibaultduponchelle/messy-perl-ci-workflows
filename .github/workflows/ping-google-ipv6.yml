@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ping ipv4
-        run: timeout 10 ping www.google.fr
+        run: timeout 10 ping www.google.com

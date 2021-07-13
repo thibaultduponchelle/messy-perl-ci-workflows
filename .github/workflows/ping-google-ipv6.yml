@@ -3,11 +3,8 @@ name : ping-google-ipv6
 on: [push]
 
 jobs:
-  perl:
-
+  ping:
     runs-on: ubuntu-latest
-
     steps:
-      
       - name: ping ipv6
         run: timeout 10 ping -6 2001:4860:4860::8888

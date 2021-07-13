@@ -1,6 +1,6 @@
 name : ping-google-ipv6
-on:
-  push: *
+
+on: [push]
 
 jobs:
   perl:

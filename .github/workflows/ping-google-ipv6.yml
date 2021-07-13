@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: ping ipv4
-        run: timeout 10 ping www.google.com
+        run: timeout 10 ping -6 2001:4860:4860::8888

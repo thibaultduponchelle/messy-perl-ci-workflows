@@ -1,5 +1,7 @@
 name : ping-google-ipv6
 
+on: [pull_request]
+
 jobs:
   ping:
     runs-on: ubuntu-18.04
